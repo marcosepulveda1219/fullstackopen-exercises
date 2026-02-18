@@ -74,6 +74,7 @@ const App = () => {
     setVotes(copy)
   }
 
+  //winner vote
   const winner = votes.reduce((acomulator, currentVotes, index) => {
     if(currentVotes > acomulator.votes){
       return{
